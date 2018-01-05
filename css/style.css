@@ -1,0 +1,68 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body.baku {
+  background-color: #dadada;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.baku {
+  background: url(baku.jpg) no-repeat top center;
+  background-size: contain;
+  background-position: center;
+}
+
+.london {
+  background: url(london.png) no-repeat top center;
+  background-size: contain;
+  background-position: center;
+}
+
+.madrid{
+  background: url(madrid.jpg) no-repeat top center;
+  background-size: contain;
+  background-position: center;
+}
+
+.rome {
+  background: url(rome.jpg) no-repeat top center;
+  background-size: contain;
+  background-position: center;
+  height: 250px;
+}
+
+
+.container {
+  margin: 0px auto;
+  margin-left: 10%;
+  width: 100%;
+}
+
+div {
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 90%;
+  height: 250px;
+}
+
+
+@media screen and (min-width: 575px) {
+  div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  div {
+    margin: 1%;
+    width: 23%;
+  }
+}
+
+h1 {
+  text-align: center;
+}
